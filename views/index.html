@@ -1,0 +1,54 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+   
+  </head>
+  <body>
+    <div id="container">
+      <h1>
+        URL Shortening Microservice
+      </h1>
+      <p>
+        This is a service that will shorten long URLs.
+      </p>
+      <h3>
+        To create new short URL.
+      </h3>
+      <p class="direct">
+        https://aboard-meeting.glitch.me/url/[Enter URL Here].
+      </p>
+      <h3>
+        To vist a shortened URL.
+      </h3>
+      <p class="direct">
+        https://aboard-meeting.glitch.me/short/[Short URL Here].
+      </p>
+    </div>
+  </body>
+</html>
+<style>
+  #container{
+    position:absolute;
+    left:25%;
+    background-color:black;
+    text-align:center;
+    border-radius:15px;
+    width:50%;
+  }
+  h1,h3,p{
+    color:white;
+  }
+  .direct{
+    background-color:grey;
+    border-radius:15px;
+  }
+</style>
